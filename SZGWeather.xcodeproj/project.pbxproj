@@ -1,0 +1,565 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A909F1B31AFC582D00C518DA /* SZGWeather.m in Sources */ = {isa = PBXBuildFile; fileRef = A909F1B21AFC582D00C518DA /* SZGWeather.m */; };
+		A909F1B61AFC59C200C518DA /* SZGWeatherNow.m in Sources */ = {isa = PBXBuildFile; fileRef = A909F1B51AFC59C200C518DA /* SZGWeatherNow.m */; };
+		A909F1B91AFC5C3D00C518DA /* SZGWeatherFuture.m in Sources */ = {isa = PBXBuildFile; fileRef = A909F1B81AFC5C3D00C518DA /* SZGWeatherFuture.m */; };
+		A909F1BC1AFC5D5000C518DA /* SZGCity.m in Sources */ = {isa = PBXBuildFile; fileRef = A909F1BB1AFC5D5000C518DA /* SZGCity.m */; };
+		A909F1BF1AFC613900C518DA /* SZGWeatherManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A909F1BE1AFC613900C518DA /* SZGWeatherManager.m */; };
+		A91DA73F1B18401C00408310 /* SZGPageController.m in Sources */ = {isa = PBXBuildFile; fileRef = A91DA73E1B18401C00408310 /* SZGPageController.m */; };
+		A9AB09B91B1E95CD000F478F /* area.plist in Resources */ = {isa = PBXBuildFile; fileRef = A9AB09B81B1E95CD000F478F /* area.plist */; };
+		A9C6FDCB1B194A6E009DEFCC /* SZGContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = A9C6FDCA1B194A6E009DEFCC /* SZGContainer.m */; };
+		A9E5CCAB1B1BF9F500C03C69 /* SZGCityCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A9E5CCAA1B1BF9F500C03C69 /* SZGCityCell.m */; };
+		A9E5CCAE1B1C2AED00C03C69 /* SZGCityController.m in Sources */ = {isa = PBXBuildFile; fileRef = A9E5CCAD1B1C2AED00C03C69 /* SZGCityController.m */; };
+		A9E5CCB11B1C2C7400C03C69 /* SZGSideController.m in Sources */ = {isa = PBXBuildFile; fileRef = A9E5CCB01B1C2C7400C03C69 /* SZGSideController.m */; };
+		A9E87B671AFB527E004A910D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A9E87B661AFB527E004A910D /* main.m */; };
+		A9E87B6A1AFB527E004A910D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A9E87B691AFB527E004A910D /* AppDelegate.m */; };
+		A9E87B701AFB527E004A910D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9E87B6E1AFB527E004A910D /* Main.storyboard */; };
+		A9E87B721AFB527E004A910D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9E87B711AFB527E004A910D /* Images.xcassets */; };
+		A9E87B751AFB527E004A910D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A9E87B731AFB527E004A910D /* LaunchScreen.xib */; };
+		A9E87B811AFB527E004A910D /* SZGWeatherTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A9E87B801AFB527E004A910D /* SZGWeatherTests.m */; };
+		A9F345D21B1D92FA00D4307F /* SZGAddCityController.m in Sources */ = {isa = PBXBuildFile; fileRef = A9F345D11B1D92FA00D4307F /* SZGAddCityController.m */; };
+		A9F361941B1453EB005F153F /* SZGWeatherController.m in Sources */ = {isa = PBXBuildFile; fileRef = A9F361931B1453EB005F153F /* SZGWeatherController.m */; };
+		A9F361971B1459D9005F153F /* SZGWeatherCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A9F361961B1459D9005F153F /* SZGWeatherCell.m */; };
+		A9F5A7881B2806B100CB9FD9 /* FVCustomAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = A9F5A7871B2806B100CB9FD9 /* FVCustomAlertView.m */; };
+		A9F9BDF01B2EC6F80036E0C5 /* CLLocationManager+Simulator.m in Sources */ = {isa = PBXBuildFile; fileRef = A9F9BDEF1B2EC6F80036E0C5 /* CLLocationManager+Simulator.m */; };
+		A9F9BDF31B2EC9000036E0C5 /* SZGLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = A9F9BDF21B2EC9000036E0C5 /* SZGLocation.m */; };
+		A9FD66771B2588B70037A523 /* WeatherCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A9FD66751B2588B70037A523 /* WeatherCell.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A9E87B7B1AFB527E004A910D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A9E87B591AFB527E004A910D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A9E87B601AFB527E004A910D;
+			remoteInfo = SZGWeather;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A909F1B11AFC582D00C518DA /* SZGWeather.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SZGWeather.h; sourceTree = "<group>"; };
+		A909F1B21AFC582D00C518DA /* SZGWeather.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SZGWeather.m; sourceTree = "<group>"; };
+		A909F1B41AFC59C200C518DA /* SZGWeatherNow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SZGWeatherNow.h; sourceTree = "<group>"; };
+		A909F1B51AFC59C200C518DA /* SZGWeatherNow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SZGWeatherNow.m; sourceTree = "<group>"; };
+		A909F1B71AFC5C3D00C518DA /* SZGWeatherFuture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SZGWeatherFuture.h; sourceTree = "<group>"; };
+		A909F1B81AFC5C3D00C518DA /* SZGWeatherFuture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SZGWeatherFuture.m; sourceTree = "<group>"; };
+		A909F1BA1AFC5D5000C518DA /* SZGCity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SZGCity.h; sourceTree = "<group>"; };
+		A909F1BB1AFC5D5000C518DA /* SZGCity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SZGCity.m; sourceTree = "<group>"; };
+		A909F1BD1AFC613900C518DA /* SZGWeatherManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SZGWeatherManager.h; sourceTree = "<group>"; };
+		A909F1BE1AFC613900C518DA /* SZGWeatherManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SZGWeatherManager.m; sourceTree = "<group>"; };
+		A909F1C31AFC964D00C518DA /* SZGWeatherManagerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SZGWeatherManagerDelegate.h; sourceTree = "<group>"; };
+		A91DA73D1B18401C00408310 /* SZGPageController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SZGPageController.h; sourceTree = "<group>"; };
+		A91DA73E1B18401C00408310 /* SZGPageController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SZGPageController.m; sourceTree = "<group>"; };
+		A953DE8F1B2292780082DCFE /* SZGAddCityDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SZGAddCityDelegate.h; sourceTree = "<group>"; };
+		A9AB09B81B1E95CD000F478F /* area.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = area.plist; sourceTree = "<group>"; };
+		A9C6FDC91B194A6E009DEFCC /* SZGContainer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SZGContainer.h; sourceTree = "<group>"; };
+		A9C6FDCA1B194A6E009DEFCC /* SZGContainer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SZGContainer.m; sourceTree = "<group>"; };
+		A9E5CCA91B1BF9F500C03C69 /* SZGCityCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SZGCityCell.h; sourceTree = "<group>"; };
+		A9E5CCAA1B1BF9F500C03C69 /* SZGCityCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SZGCityCell.m; sourceTree = "<group>"; };
+		A9E5CCAC1B1C2AED00C03C69 /* SZGCityController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SZGCityController.h; sourceTree = "<group>"; };
+		A9E5CCAD1B1C2AED00C03C69 /* SZGCityController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SZGCityController.m; sourceTree = "<group>"; };
+		A9E5CCAF1B1C2C7400C03C69 /* SZGSideController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SZGSideController.h; sourceTree = "<group>"; };
+		A9E5CCB01B1C2C7400C03C69 /* SZGSideController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SZGSideController.m; sourceTree = "<group>"; };
+		A9E87B611AFB527E004A910D /* SZGWeather.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SZGWeather.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9E87B651AFB527E004A910D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A9E87B661AFB527E004A910D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A9E87B681AFB527E004A910D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A9E87B691AFB527E004A910D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A9E87B6F1AFB527E004A910D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A9E87B711AFB527E004A910D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A9E87B741AFB527E004A910D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		A9E87B7A1AFB527E004A910D /* SZGWeatherTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SZGWeatherTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9E87B7F1AFB527E004A910D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A9E87B801AFB527E004A910D /* SZGWeatherTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SZGWeatherTests.m; sourceTree = "<group>"; };
+		A9F345D01B1D92FA00D4307F /* SZGAddCityController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SZGAddCityController.h; sourceTree = "<group>"; };
+		A9F345D11B1D92FA00D4307F /* SZGAddCityController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SZGAddCityController.m; sourceTree = "<group>"; };
+		A9F361921B1453EB005F153F /* SZGWeatherController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SZGWeatherController.h; sourceTree = "<group>"; };
+		A9F361931B1453EB005F153F /* SZGWeatherController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SZGWeatherController.m; sourceTree = "<group>"; };
+		A9F361951B1459D9005F153F /* SZGWeatherCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SZGWeatherCell.h; sourceTree = "<group>"; };
+		A9F361961B1459D9005F153F /* SZGWeatherCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SZGWeatherCell.m; sourceTree = "<group>"; };
+		A9F5A7861B2806B100CB9FD9 /* FVCustomAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FVCustomAlertView.h; sourceTree = "<group>"; };
+		A9F5A7871B2806B100CB9FD9 /* FVCustomAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FVCustomAlertView.m; sourceTree = "<group>"; };
+		A9F9BDEE1B2EC6F80036E0C5 /* CLLocationManager+Simulator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CLLocationManager+Simulator.h"; sourceTree = "<group>"; };
+		A9F9BDEF1B2EC6F80036E0C5 /* CLLocationManager+Simulator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CLLocationManager+Simulator.m"; sourceTree = "<group>"; };
+		A9F9BDF11B2EC9000036E0C5 /* SZGLocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SZGLocation.h; sourceTree = "<group>"; };
+		A9F9BDF21B2EC9000036E0C5 /* SZGLocation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SZGLocation.m; sourceTree = "<group>"; };
+		A9F9BDF41B2FA6AA0036E0C5 /* SZGLocationDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SZGLocationDelegate.h; sourceTree = "<group>"; };
+		A9FD66751B2588B70037A523 /* WeatherCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WeatherCell.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A9E87B5E1AFB527E004A910D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9E87B771AFB527E004A910D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A909F1C01AFC833B00C518DA /* SZGWeatherSDK */ = {
+			isa = PBXGroup;
+			children = (
+				A909F1B11AFC582D00C518DA /* SZGWeather.h */,
+				A909F1B21AFC582D00C518DA /* SZGWeather.m */,
+				A909F1BA1AFC5D5000C518DA /* SZGCity.h */,
+				A909F1BB1AFC5D5000C518DA /* SZGCity.m */,
+				A909F1B41AFC59C200C518DA /* SZGWeatherNow.h */,
+				A909F1B51AFC59C200C518DA /* SZGWeatherNow.m */,
+				A909F1B71AFC5C3D00C518DA /* SZGWeatherFuture.h */,
+				A909F1B81AFC5C3D00C518DA /* SZGWeatherFuture.m */,
+				A909F1BD1AFC613900C518DA /* SZGWeatherManager.h */,
+				A909F1BE1AFC613900C518DA /* SZGWeatherManager.m */,
+				A909F1C31AFC964D00C518DA /* SZGWeatherManagerDelegate.h */,
+			);
+			name = SZGWeatherSDK;
+			sourceTree = "<group>";
+		};
+		A9DF45841B5C8BDD0013F83E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A9F361951B1459D9005F153F /* SZGWeatherCell.h */,
+				A9F361961B1459D9005F153F /* SZGWeatherCell.m */,
+				A9FD66751B2588B70037A523 /* WeatherCell.xib */,
+				A9F5A7861B2806B100CB9FD9 /* FVCustomAlertView.h */,
+				A9F5A7871B2806B100CB9FD9 /* FVCustomAlertView.m */,
+				A9E5CCA91B1BF9F500C03C69 /* SZGCityCell.h */,
+				A9E5CCAA1B1BF9F500C03C69 /* SZGCityCell.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		A9DF45851B5C8C140013F83E /* Locations */ = {
+			isa = PBXGroup;
+			children = (
+				A9AB09B81B1E95CD000F478F /* area.plist */,
+				A9F9BDEE1B2EC6F80036E0C5 /* CLLocationManager+Simulator.h */,
+				A9F9BDEF1B2EC6F80036E0C5 /* CLLocationManager+Simulator.m */,
+				A9F9BDF11B2EC9000036E0C5 /* SZGLocation.h */,
+				A9F9BDF21B2EC9000036E0C5 /* SZGLocation.m */,
+				A9F9BDF41B2FA6AA0036E0C5 /* SZGLocationDelegate.h */,
+			);
+			name = Locations;
+			sourceTree = "<group>";
+		};
+		A9DF45861B5C8C330013F83E /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				A9F361921B1453EB005F153F /* SZGWeatherController.h */,
+				A9F361931B1453EB005F153F /* SZGWeatherController.m */,
+				A91DA73D1B18401C00408310 /* SZGPageController.h */,
+				A91DA73E1B18401C00408310 /* SZGPageController.m */,
+				A9E5CCAC1B1C2AED00C03C69 /* SZGCityController.h */,
+				A9E5CCAD1B1C2AED00C03C69 /* SZGCityController.m */,
+				A9E5CCAF1B1C2C7400C03C69 /* SZGSideController.h */,
+				A9E5CCB01B1C2C7400C03C69 /* SZGSideController.m */,
+				A9F345D01B1D92FA00D4307F /* SZGAddCityController.h */,
+				A9F345D11B1D92FA00D4307F /* SZGAddCityController.m */,
+				A953DE8F1B2292780082DCFE /* SZGAddCityDelegate.h */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		A9E87B581AFB527E004A910D = {
+			isa = PBXGroup;
+			children = (
+				A9E87B631AFB527E004A910D /* SZGWeather */,
+				A9E87B7D1AFB527E004A910D /* SZGWeatherTests */,
+				A9E87B621AFB527E004A910D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A9E87B621AFB527E004A910D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A9E87B611AFB527E004A910D /* SZGWeather.app */,
+				A9E87B7A1AFB527E004A910D /* SZGWeatherTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A9E87B631AFB527E004A910D /* SZGWeather */ = {
+			isa = PBXGroup;
+			children = (
+				A9DF45861B5C8C330013F83E /* Controllers */,
+				A9DF45851B5C8C140013F83E /* Locations */,
+				A9DF45841B5C8BDD0013F83E /* Views */,
+				A909F1C01AFC833B00C518DA /* SZGWeatherSDK */,
+				A9E87B681AFB527E004A910D /* AppDelegate.h */,
+				A9E87B691AFB527E004A910D /* AppDelegate.m */,
+				A9C6FDC91B194A6E009DEFCC /* SZGContainer.h */,
+				A9C6FDCA1B194A6E009DEFCC /* SZGContainer.m */,
+				A9E87B6E1AFB527E004A910D /* Main.storyboard */,
+				A9E87B711AFB527E004A910D /* Images.xcassets */,
+				A9E87B731AFB527E004A910D /* LaunchScreen.xib */,
+				A9E87B641AFB527E004A910D /* Supporting Files */,
+			);
+			path = SZGWeather;
+			sourceTree = "<group>";
+		};
+		A9E87B641AFB527E004A910D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A9E87B651AFB527E004A910D /* Info.plist */,
+				A9E87B661AFB527E004A910D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A9E87B7D1AFB527E004A910D /* SZGWeatherTests */ = {
+			isa = PBXGroup;
+			children = (
+				A9E87B801AFB527E004A910D /* SZGWeatherTests.m */,
+				A9E87B7E1AFB527E004A910D /* Supporting Files */,
+			);
+			path = SZGWeatherTests;
+			sourceTree = "<group>";
+		};
+		A9E87B7E1AFB527E004A910D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A9E87B7F1AFB527E004A910D /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A9E87B601AFB527E004A910D /* SZGWeather */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9E87B841AFB527E004A910D /* Build configuration list for PBXNativeTarget "SZGWeather" */;
+			buildPhases = (
+				A9E87B5D1AFB527E004A910D /* Sources */,
+				A9E87B5E1AFB527E004A910D /* Frameworks */,
+				A9E87B5F1AFB527E004A910D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SZGWeather;
+			productName = SZGWeather;
+			productReference = A9E87B611AFB527E004A910D /* SZGWeather.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A9E87B791AFB527E004A910D /* SZGWeatherTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9E87B871AFB527E004A910D /* Build configuration list for PBXNativeTarget "SZGWeatherTests" */;
+			buildPhases = (
+				A9E87B761AFB527E004A910D /* Sources */,
+				A9E87B771AFB527E004A910D /* Frameworks */,
+				A9E87B781AFB527E004A910D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A9E87B7C1AFB527E004A910D /* PBXTargetDependency */,
+			);
+			name = SZGWeatherTests;
+			productName = SZGWeatherTests;
+			productReference = A9E87B7A1AFB527E004A910D /* SZGWeatherTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A9E87B591AFB527E004A910D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = "盛振国";
+				TargetAttributes = {
+					A9E87B601AFB527E004A910D = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					A9E87B791AFB527E004A910D = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = A9E87B601AFB527E004A910D;
+					};
+				};
+			};
+			buildConfigurationList = A9E87B5C1AFB527E004A910D /* Build configuration list for PBXProject "SZGWeather" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A9E87B581AFB527E004A910D;
+			productRefGroup = A9E87B621AFB527E004A910D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A9E87B601AFB527E004A910D /* SZGWeather */,
+				A9E87B791AFB527E004A910D /* SZGWeatherTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A9E87B5F1AFB527E004A910D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9E87B701AFB527E004A910D /* Main.storyboard in Resources */,
+				A9AB09B91B1E95CD000F478F /* area.plist in Resources */,
+				A9E87B751AFB527E004A910D /* LaunchScreen.xib in Resources */,
+				A9E87B721AFB527E004A910D /* Images.xcassets in Resources */,
+				A9FD66771B2588B70037A523 /* WeatherCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9E87B781AFB527E004A910D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A9E87B5D1AFB527E004A910D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9C6FDCB1B194A6E009DEFCC /* SZGContainer.m in Sources */,
+				A9E5CCB11B1C2C7400C03C69 /* SZGSideController.m in Sources */,
+				A909F1B91AFC5C3D00C518DA /* SZGWeatherFuture.m in Sources */,
+				A9E87B6A1AFB527E004A910D /* AppDelegate.m in Sources */,
+				A9F5A7881B2806B100CB9FD9 /* FVCustomAlertView.m in Sources */,
+				A9E5CCAE1B1C2AED00C03C69 /* SZGCityController.m in Sources */,
+				A909F1B61AFC59C200C518DA /* SZGWeatherNow.m in Sources */,
+				A9E87B671AFB527E004A910D /* main.m in Sources */,
+				A9F9BDF01B2EC6F80036E0C5 /* CLLocationManager+Simulator.m in Sources */,
+				A909F1BF1AFC613900C518DA /* SZGWeatherManager.m in Sources */,
+				A9F361971B1459D9005F153F /* SZGWeatherCell.m in Sources */,
+				A9F9BDF31B2EC9000036E0C5 /* SZGLocation.m in Sources */,
+				A9F361941B1453EB005F153F /* SZGWeatherController.m in Sources */,
+				A909F1BC1AFC5D5000C518DA /* SZGCity.m in Sources */,
+				A9F345D21B1D92FA00D4307F /* SZGAddCityController.m in Sources */,
+				A9E5CCAB1B1BF9F500C03C69 /* SZGCityCell.m in Sources */,
+				A909F1B31AFC582D00C518DA /* SZGWeather.m in Sources */,
+				A91DA73F1B18401C00408310 /* SZGPageController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9E87B761AFB527E004A910D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9E87B811AFB527E004A910D /* SZGWeatherTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A9E87B7C1AFB527E004A910D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A9E87B601AFB527E004A910D /* SZGWeather */;
+			targetProxy = A9E87B7B1AFB527E004A910D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A9E87B6E1AFB527E004A910D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A9E87B6F1AFB527E004A910D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A9E87B731AFB527E004A910D /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A9E87B741AFB527E004A910D /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A9E87B821AFB527E004A910D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A9E87B831AFB527E004A910D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A9E87B851AFB527E004A910D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SZGWeather/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A9E87B861AFB527E004A910D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SZGWeather/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A9E87B881AFB527E004A910D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SZGWeatherTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SZGWeather.app/SZGWeather";
+			};
+			name = Debug;
+		};
+		A9E87B891AFB527E004A910D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SZGWeatherTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SZGWeather.app/SZGWeather";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A9E87B5C1AFB527E004A910D /* Build configuration list for PBXProject "SZGWeather" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9E87B821AFB527E004A910D /* Debug */,
+				A9E87B831AFB527E004A910D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A9E87B841AFB527E004A910D /* Build configuration list for PBXNativeTarget "SZGWeather" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9E87B851AFB527E004A910D /* Debug */,
+				A9E87B861AFB527E004A910D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A9E87B871AFB527E004A910D /* Build configuration list for PBXNativeTarget "SZGWeatherTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9E87B881AFB527E004A910D /* Debug */,
+				A9E87B891AFB527E004A910D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A9E87B591AFB527E004A910D /* Project object */;
+}
