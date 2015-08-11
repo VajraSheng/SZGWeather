@@ -7,30 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A909F1B31AFC582D00C518DA /* SZGWeather.m in Sources */ = {isa = PBXBuildFile; fileRef = A909F1B21AFC582D00C518DA /* SZGWeather.m */; };
-		A909F1B61AFC59C200C518DA /* SZGWeatherNow.m in Sources */ = {isa = PBXBuildFile; fileRef = A909F1B51AFC59C200C518DA /* SZGWeatherNow.m */; };
-		A909F1B91AFC5C3D00C518DA /* SZGWeatherFuture.m in Sources */ = {isa = PBXBuildFile; fileRef = A909F1B81AFC5C3D00C518DA /* SZGWeatherFuture.m */; };
-		A909F1BC1AFC5D5000C518DA /* SZGCity.m in Sources */ = {isa = PBXBuildFile; fileRef = A909F1BB1AFC5D5000C518DA /* SZGCity.m */; };
-		A909F1BF1AFC613900C518DA /* SZGWeatherManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A909F1BE1AFC613900C518DA /* SZGWeatherManager.m */; };
-		A91DA73F1B18401C00408310 /* SZGPageController.m in Sources */ = {isa = PBXBuildFile; fileRef = A91DA73E1B18401C00408310 /* SZGPageController.m */; };
-		A9AB09B91B1E95CD000F478F /* area.plist in Resources */ = {isa = PBXBuildFile; fileRef = A9AB09B81B1E95CD000F478F /* area.plist */; };
+		A951463A1B7994C400B733ED /* SZGWeatherController.m in Sources */ = {isa = PBXBuildFile; fileRef = A95146301B7994C400B733ED /* SZGWeatherController.m */; };
+		A951463B1B7994C400B733ED /* SZGPageController.m in Sources */ = {isa = PBXBuildFile; fileRef = A95146321B7994C400B733ED /* SZGPageController.m */; };
+		A951463C1B7994C400B733ED /* SZGCityController.m in Sources */ = {isa = PBXBuildFile; fileRef = A95146341B7994C400B733ED /* SZGCityController.m */; };
+		A951463D1B7994C400B733ED /* SZGSideController.m in Sources */ = {isa = PBXBuildFile; fileRef = A95146361B7994C400B733ED /* SZGSideController.m */; };
+		A951463E1B7994C400B733ED /* SZGAddCityController.m in Sources */ = {isa = PBXBuildFile; fileRef = A95146381B7994C400B733ED /* SZGAddCityController.m */; };
+		A95146451B7994DD00B733ED /* area.plist in Resources */ = {isa = PBXBuildFile; fileRef = A951463F1B7994DD00B733ED /* area.plist */; };
+		A95146461B7994DD00B733ED /* CLLocationManager+Simulator.m in Sources */ = {isa = PBXBuildFile; fileRef = A95146411B7994DD00B733ED /* CLLocationManager+Simulator.m */; };
+		A95146471B7994DD00B733ED /* SZGLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = A95146431B7994DD00B733ED /* SZGLocation.m */; };
+		A951464F1B7994ED00B733ED /* SZGWeatherCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A95146491B7994ED00B733ED /* SZGWeatherCell.m */; };
+		A95146501B7994ED00B733ED /* WeatherCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A951464A1B7994ED00B733ED /* WeatherCell.xib */; };
+		A95146511B7994ED00B733ED /* FVCustomAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = A951464C1B7994ED00B733ED /* FVCustomAlertView.m */; };
+		A95146521B7994ED00B733ED /* SZGCityCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A951464E1B7994ED00B733ED /* SZGCityCell.m */; };
+		A951465E1B79953200B733ED /* SZGWeather.m in Sources */ = {isa = PBXBuildFile; fileRef = A95146541B79953200B733ED /* SZGWeather.m */; };
+		A951465F1B79953200B733ED /* SZGCity.m in Sources */ = {isa = PBXBuildFile; fileRef = A95146561B79953200B733ED /* SZGCity.m */; };
+		A95146601B79953200B733ED /* SZGWeatherNow.m in Sources */ = {isa = PBXBuildFile; fileRef = A95146581B79953200B733ED /* SZGWeatherNow.m */; };
+		A95146611B79953200B733ED /* SZGWeatherFuture.m in Sources */ = {isa = PBXBuildFile; fileRef = A951465A1B79953200B733ED /* SZGWeatherFuture.m */; };
+		A95146621B79953200B733ED /* SZGWeatherManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A951465C1B79953200B733ED /* SZGWeatherManager.m */; };
 		A9C6FDCB1B194A6E009DEFCC /* SZGContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = A9C6FDCA1B194A6E009DEFCC /* SZGContainer.m */; };
-		A9E5CCAB1B1BF9F500C03C69 /* SZGCityCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A9E5CCAA1B1BF9F500C03C69 /* SZGCityCell.m */; };
-		A9E5CCAE1B1C2AED00C03C69 /* SZGCityController.m in Sources */ = {isa = PBXBuildFile; fileRef = A9E5CCAD1B1C2AED00C03C69 /* SZGCityController.m */; };
-		A9E5CCB11B1C2C7400C03C69 /* SZGSideController.m in Sources */ = {isa = PBXBuildFile; fileRef = A9E5CCB01B1C2C7400C03C69 /* SZGSideController.m */; };
 		A9E87B671AFB527E004A910D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A9E87B661AFB527E004A910D /* main.m */; };
 		A9E87B6A1AFB527E004A910D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A9E87B691AFB527E004A910D /* AppDelegate.m */; };
 		A9E87B701AFB527E004A910D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9E87B6E1AFB527E004A910D /* Main.storyboard */; };
 		A9E87B721AFB527E004A910D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9E87B711AFB527E004A910D /* Images.xcassets */; };
 		A9E87B751AFB527E004A910D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A9E87B731AFB527E004A910D /* LaunchScreen.xib */; };
 		A9E87B811AFB527E004A910D /* SZGWeatherTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A9E87B801AFB527E004A910D /* SZGWeatherTests.m */; };
-		A9F345D21B1D92FA00D4307F /* SZGAddCityController.m in Sources */ = {isa = PBXBuildFile; fileRef = A9F345D11B1D92FA00D4307F /* SZGAddCityController.m */; };
-		A9F361941B1453EB005F153F /* SZGWeatherController.m in Sources */ = {isa = PBXBuildFile; fileRef = A9F361931B1453EB005F153F /* SZGWeatherController.m */; };
-		A9F361971B1459D9005F153F /* SZGWeatherCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A9F361961B1459D9005F153F /* SZGWeatherCell.m */; };
-		A9F5A7881B2806B100CB9FD9 /* FVCustomAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = A9F5A7871B2806B100CB9FD9 /* FVCustomAlertView.m */; };
-		A9F9BDF01B2EC6F80036E0C5 /* CLLocationManager+Simulator.m in Sources */ = {isa = PBXBuildFile; fileRef = A9F9BDEF1B2EC6F80036E0C5 /* CLLocationManager+Simulator.m */; };
-		A9F9BDF31B2EC9000036E0C5 /* SZGLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = A9F9BDF21B2EC9000036E0C5 /* SZGLocation.m */; };
-		A9FD66771B2588B70037A523 /* WeatherCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A9FD66751B2588B70037A523 /* WeatherCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,29 +44,43 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		A909F1B11AFC582D00C518DA /* SZGWeather.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SZGWeather.h; sourceTree = "<group>"; };
-		A909F1B21AFC582D00C518DA /* SZGWeather.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SZGWeather.m; sourceTree = "<group>"; };
-		A909F1B41AFC59C200C518DA /* SZGWeatherNow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SZGWeatherNow.h; sourceTree = "<group>"; };
-		A909F1B51AFC59C200C518DA /* SZGWeatherNow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SZGWeatherNow.m; sourceTree = "<group>"; };
-		A909F1B71AFC5C3D00C518DA /* SZGWeatherFuture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SZGWeatherFuture.h; sourceTree = "<group>"; };
-		A909F1B81AFC5C3D00C518DA /* SZGWeatherFuture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SZGWeatherFuture.m; sourceTree = "<group>"; };
-		A909F1BA1AFC5D5000C518DA /* SZGCity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SZGCity.h; sourceTree = "<group>"; };
-		A909F1BB1AFC5D5000C518DA /* SZGCity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SZGCity.m; sourceTree = "<group>"; };
-		A909F1BD1AFC613900C518DA /* SZGWeatherManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SZGWeatherManager.h; sourceTree = "<group>"; };
-		A909F1BE1AFC613900C518DA /* SZGWeatherManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SZGWeatherManager.m; sourceTree = "<group>"; };
-		A909F1C31AFC964D00C518DA /* SZGWeatherManagerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SZGWeatherManagerDelegate.h; sourceTree = "<group>"; };
-		A91DA73D1B18401C00408310 /* SZGPageController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SZGPageController.h; sourceTree = "<group>"; };
-		A91DA73E1B18401C00408310 /* SZGPageController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SZGPageController.m; sourceTree = "<group>"; };
-		A953DE8F1B2292780082DCFE /* SZGAddCityDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SZGAddCityDelegate.h; sourceTree = "<group>"; };
-		A9AB09B81B1E95CD000F478F /* area.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = area.plist; sourceTree = "<group>"; };
+		A951462F1B7994C400B733ED /* SZGWeatherController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SZGWeatherController.h; sourceTree = "<group>"; };
+		A95146301B7994C400B733ED /* SZGWeatherController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SZGWeatherController.m; sourceTree = "<group>"; };
+		A95146311B7994C400B733ED /* SZGPageController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SZGPageController.h; sourceTree = "<group>"; };
+		A95146321B7994C400B733ED /* SZGPageController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SZGPageController.m; sourceTree = "<group>"; };
+		A95146331B7994C400B733ED /* SZGCityController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SZGCityController.h; sourceTree = "<group>"; };
+		A95146341B7994C400B733ED /* SZGCityController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SZGCityController.m; sourceTree = "<group>"; };
+		A95146351B7994C400B733ED /* SZGSideController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SZGSideController.h; sourceTree = "<group>"; };
+		A95146361B7994C400B733ED /* SZGSideController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SZGSideController.m; sourceTree = "<group>"; };
+		A95146371B7994C400B733ED /* SZGAddCityController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SZGAddCityController.h; sourceTree = "<group>"; };
+		A95146381B7994C400B733ED /* SZGAddCityController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SZGAddCityController.m; sourceTree = "<group>"; };
+		A95146391B7994C400B733ED /* SZGAddCityDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SZGAddCityDelegate.h; sourceTree = "<group>"; };
+		A951463F1B7994DD00B733ED /* area.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = area.plist; sourceTree = "<group>"; };
+		A95146401B7994DD00B733ED /* CLLocationManager+Simulator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CLLocationManager+Simulator.h"; sourceTree = "<group>"; };
+		A95146411B7994DD00B733ED /* CLLocationManager+Simulator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CLLocationManager+Simulator.m"; sourceTree = "<group>"; };
+		A95146421B7994DD00B733ED /* SZGLocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SZGLocation.h; sourceTree = "<group>"; };
+		A95146431B7994DD00B733ED /* SZGLocation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SZGLocation.m; sourceTree = "<group>"; };
+		A95146441B7994DD00B733ED /* SZGLocationDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SZGLocationDelegate.h; sourceTree = "<group>"; };
+		A95146481B7994ED00B733ED /* SZGWeatherCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SZGWeatherCell.h; sourceTree = "<group>"; };
+		A95146491B7994ED00B733ED /* SZGWeatherCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SZGWeatherCell.m; sourceTree = "<group>"; };
+		A951464A1B7994ED00B733ED /* WeatherCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WeatherCell.xib; sourceTree = "<group>"; };
+		A951464B1B7994ED00B733ED /* FVCustomAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FVCustomAlertView.h; sourceTree = "<group>"; };
+		A951464C1B7994ED00B733ED /* FVCustomAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FVCustomAlertView.m; sourceTree = "<group>"; };
+		A951464D1B7994ED00B733ED /* SZGCityCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SZGCityCell.h; sourceTree = "<group>"; };
+		A951464E1B7994ED00B733ED /* SZGCityCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SZGCityCell.m; sourceTree = "<group>"; };
+		A95146531B79953200B733ED /* SZGWeather.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SZGWeather.h; sourceTree = "<group>"; };
+		A95146541B79953200B733ED /* SZGWeather.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SZGWeather.m; sourceTree = "<group>"; };
+		A95146551B79953200B733ED /* SZGCity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SZGCity.h; sourceTree = "<group>"; };
+		A95146561B79953200B733ED /* SZGCity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SZGCity.m; sourceTree = "<group>"; };
+		A95146571B79953200B733ED /* SZGWeatherNow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SZGWeatherNow.h; sourceTree = "<group>"; };
+		A95146581B79953200B733ED /* SZGWeatherNow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SZGWeatherNow.m; sourceTree = "<group>"; };
+		A95146591B79953200B733ED /* SZGWeatherFuture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SZGWeatherFuture.h; sourceTree = "<group>"; };
+		A951465A1B79953200B733ED /* SZGWeatherFuture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SZGWeatherFuture.m; sourceTree = "<group>"; };
+		A951465B1B79953200B733ED /* SZGWeatherManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SZGWeatherManager.h; sourceTree = "<group>"; };
+		A951465C1B79953200B733ED /* SZGWeatherManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SZGWeatherManager.m; sourceTree = "<group>"; };
+		A951465D1B79953200B733ED /* SZGWeatherManagerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SZGWeatherManagerDelegate.h; sourceTree = "<group>"; };
 		A9C6FDC91B194A6E009DEFCC /* SZGContainer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SZGContainer.h; sourceTree = "<group>"; };
 		A9C6FDCA1B194A6E009DEFCC /* SZGContainer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SZGContainer.m; sourceTree = "<group>"; };
-		A9E5CCA91B1BF9F500C03C69 /* SZGCityCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SZGCityCell.h; sourceTree = "<group>"; };
-		A9E5CCAA1B1BF9F500C03C69 /* SZGCityCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SZGCityCell.m; sourceTree = "<group>"; };
-		A9E5CCAC1B1C2AED00C03C69 /* SZGCityController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SZGCityController.h; sourceTree = "<group>"; };
-		A9E5CCAD1B1C2AED00C03C69 /* SZGCityController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SZGCityController.m; sourceTree = "<group>"; };
-		A9E5CCAF1B1C2C7400C03C69 /* SZGSideController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SZGSideController.h; sourceTree = "<group>"; };
-		A9E5CCB01B1C2C7400C03C69 /* SZGSideController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SZGSideController.m; sourceTree = "<group>"; };
 		A9E87B611AFB527E004A910D /* SZGWeather.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SZGWeather.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9E87B651AFB527E004A910D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A9E87B661AFB527E004A910D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -78,20 +92,6 @@
 		A9E87B7A1AFB527E004A910D /* SZGWeatherTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SZGWeatherTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9E87B7F1AFB527E004A910D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A9E87B801AFB527E004A910D /* SZGWeatherTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SZGWeatherTests.m; sourceTree = "<group>"; };
-		A9F345D01B1D92FA00D4307F /* SZGAddCityController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SZGAddCityController.h; sourceTree = "<group>"; };
-		A9F345D11B1D92FA00D4307F /* SZGAddCityController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SZGAddCityController.m; sourceTree = "<group>"; };
-		A9F361921B1453EB005F153F /* SZGWeatherController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SZGWeatherController.h; sourceTree = "<group>"; };
-		A9F361931B1453EB005F153F /* SZGWeatherController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SZGWeatherController.m; sourceTree = "<group>"; };
-		A9F361951B1459D9005F153F /* SZGWeatherCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SZGWeatherCell.h; sourceTree = "<group>"; };
-		A9F361961B1459D9005F153F /* SZGWeatherCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SZGWeatherCell.m; sourceTree = "<group>"; };
-		A9F5A7861B2806B100CB9FD9 /* FVCustomAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FVCustomAlertView.h; sourceTree = "<group>"; };
-		A9F5A7871B2806B100CB9FD9 /* FVCustomAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FVCustomAlertView.m; sourceTree = "<group>"; };
-		A9F9BDEE1B2EC6F80036E0C5 /* CLLocationManager+Simulator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CLLocationManager+Simulator.h"; sourceTree = "<group>"; };
-		A9F9BDEF1B2EC6F80036E0C5 /* CLLocationManager+Simulator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CLLocationManager+Simulator.m"; sourceTree = "<group>"; };
-		A9F9BDF11B2EC9000036E0C5 /* SZGLocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SZGLocation.h; sourceTree = "<group>"; };
-		A9F9BDF21B2EC9000036E0C5 /* SZGLocation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SZGLocation.m; sourceTree = "<group>"; };
-		A9F9BDF41B2FA6AA0036E0C5 /* SZGLocationDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SZGLocationDelegate.h; sourceTree = "<group>"; };
-		A9FD66751B2588B70037A523 /* WeatherCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WeatherCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,17 +115,17 @@
 		A909F1C01AFC833B00C518DA /* SZGWeatherSDK */ = {
 			isa = PBXGroup;
 			children = (
-				A909F1B11AFC582D00C518DA /* SZGWeather.h */,
-				A909F1B21AFC582D00C518DA /* SZGWeather.m */,
-				A909F1BA1AFC5D5000C518DA /* SZGCity.h */,
-				A909F1BB1AFC5D5000C518DA /* SZGCity.m */,
-				A909F1B41AFC59C200C518DA /* SZGWeatherNow.h */,
-				A909F1B51AFC59C200C518DA /* SZGWeatherNow.m */,
-				A909F1B71AFC5C3D00C518DA /* SZGWeatherFuture.h */,
-				A909F1B81AFC5C3D00C518DA /* SZGWeatherFuture.m */,
-				A909F1BD1AFC613900C518DA /* SZGWeatherManager.h */,
-				A909F1BE1AFC613900C518DA /* SZGWeatherManager.m */,
-				A909F1C31AFC964D00C518DA /* SZGWeatherManagerDelegate.h */,
+				A95146531B79953200B733ED /* SZGWeather.h */,
+				A95146541B79953200B733ED /* SZGWeather.m */,
+				A95146551B79953200B733ED /* SZGCity.h */,
+				A95146561B79953200B733ED /* SZGCity.m */,
+				A95146571B79953200B733ED /* SZGWeatherNow.h */,
+				A95146581B79953200B733ED /* SZGWeatherNow.m */,
+				A95146591B79953200B733ED /* SZGWeatherFuture.h */,
+				A951465A1B79953200B733ED /* SZGWeatherFuture.m */,
+				A951465B1B79953200B733ED /* SZGWeatherManager.h */,
+				A951465C1B79953200B733ED /* SZGWeatherManager.m */,
+				A951465D1B79953200B733ED /* SZGWeatherManagerDelegate.h */,
 			);
 			name = SZGWeatherSDK;
 			sourceTree = "<group>";
@@ -133,13 +133,13 @@
 		A9DF45841B5C8BDD0013F83E /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				A9F361951B1459D9005F153F /* SZGWeatherCell.h */,
-				A9F361961B1459D9005F153F /* SZGWeatherCell.m */,
-				A9FD66751B2588B70037A523 /* WeatherCell.xib */,
-				A9F5A7861B2806B100CB9FD9 /* FVCustomAlertView.h */,
-				A9F5A7871B2806B100CB9FD9 /* FVCustomAlertView.m */,
-				A9E5CCA91B1BF9F500C03C69 /* SZGCityCell.h */,
-				A9E5CCAA1B1BF9F500C03C69 /* SZGCityCell.m */,
+				A95146481B7994ED00B733ED /* SZGWeatherCell.h */,
+				A95146491B7994ED00B733ED /* SZGWeatherCell.m */,
+				A951464A1B7994ED00B733ED /* WeatherCell.xib */,
+				A951464B1B7994ED00B733ED /* FVCustomAlertView.h */,
+				A951464C1B7994ED00B733ED /* FVCustomAlertView.m */,
+				A951464D1B7994ED00B733ED /* SZGCityCell.h */,
+				A951464E1B7994ED00B733ED /* SZGCityCell.m */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -147,12 +147,12 @@
 		A9DF45851B5C8C140013F83E /* Locations */ = {
 			isa = PBXGroup;
 			children = (
-				A9AB09B81B1E95CD000F478F /* area.plist */,
-				A9F9BDEE1B2EC6F80036E0C5 /* CLLocationManager+Simulator.h */,
-				A9F9BDEF1B2EC6F80036E0C5 /* CLLocationManager+Simulator.m */,
-				A9F9BDF11B2EC9000036E0C5 /* SZGLocation.h */,
-				A9F9BDF21B2EC9000036E0C5 /* SZGLocation.m */,
-				A9F9BDF41B2FA6AA0036E0C5 /* SZGLocationDelegate.h */,
+				A951463F1B7994DD00B733ED /* area.plist */,
+				A95146401B7994DD00B733ED /* CLLocationManager+Simulator.h */,
+				A95146411B7994DD00B733ED /* CLLocationManager+Simulator.m */,
+				A95146421B7994DD00B733ED /* SZGLocation.h */,
+				A95146431B7994DD00B733ED /* SZGLocation.m */,
+				A95146441B7994DD00B733ED /* SZGLocationDelegate.h */,
 			);
 			name = Locations;
 			sourceTree = "<group>";
@@ -160,17 +160,17 @@
 		A9DF45861B5C8C330013F83E /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				A9F361921B1453EB005F153F /* SZGWeatherController.h */,
-				A9F361931B1453EB005F153F /* SZGWeatherController.m */,
-				A91DA73D1B18401C00408310 /* SZGPageController.h */,
-				A91DA73E1B18401C00408310 /* SZGPageController.m */,
-				A9E5CCAC1B1C2AED00C03C69 /* SZGCityController.h */,
-				A9E5CCAD1B1C2AED00C03C69 /* SZGCityController.m */,
-				A9E5CCAF1B1C2C7400C03C69 /* SZGSideController.h */,
-				A9E5CCB01B1C2C7400C03C69 /* SZGSideController.m */,
-				A9F345D01B1D92FA00D4307F /* SZGAddCityController.h */,
-				A9F345D11B1D92FA00D4307F /* SZGAddCityController.m */,
-				A953DE8F1B2292780082DCFE /* SZGAddCityDelegate.h */,
+				A951462F1B7994C400B733ED /* SZGWeatherController.h */,
+				A95146301B7994C400B733ED /* SZGWeatherController.m */,
+				A95146311B7994C400B733ED /* SZGPageController.h */,
+				A95146321B7994C400B733ED /* SZGPageController.m */,
+				A95146331B7994C400B733ED /* SZGCityController.h */,
+				A95146341B7994C400B733ED /* SZGCityController.m */,
+				A95146351B7994C400B733ED /* SZGSideController.h */,
+				A95146361B7994C400B733ED /* SZGSideController.m */,
+				A95146371B7994C400B733ED /* SZGAddCityController.h */,
+				A95146381B7994C400B733ED /* SZGAddCityController.m */,
+				A95146391B7994C400B733ED /* SZGAddCityDelegate.h */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -319,10 +319,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				A9E87B701AFB527E004A910D /* Main.storyboard in Resources */,
-				A9AB09B91B1E95CD000F478F /* area.plist in Resources */,
+				A95146451B7994DD00B733ED /* area.plist in Resources */,
 				A9E87B751AFB527E004A910D /* LaunchScreen.xib in Resources */,
 				A9E87B721AFB527E004A910D /* Images.xcassets in Resources */,
-				A9FD66771B2588B70037A523 /* WeatherCell.xib in Resources */,
+				A95146501B7994ED00B733ED /* WeatherCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -340,24 +340,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A95146611B79953200B733ED /* SZGWeatherFuture.m in Sources */,
 				A9C6FDCB1B194A6E009DEFCC /* SZGContainer.m in Sources */,
-				A9E5CCB11B1C2C7400C03C69 /* SZGSideController.m in Sources */,
-				A909F1B91AFC5C3D00C518DA /* SZGWeatherFuture.m in Sources */,
 				A9E87B6A1AFB527E004A910D /* AppDelegate.m in Sources */,
-				A9F5A7881B2806B100CB9FD9 /* FVCustomAlertView.m in Sources */,
-				A9E5CCAE1B1C2AED00C03C69 /* SZGCityController.m in Sources */,
-				A909F1B61AFC59C200C518DA /* SZGWeatherNow.m in Sources */,
+				A95146601B79953200B733ED /* SZGWeatherNow.m in Sources */,
+				A951463B1B7994C400B733ED /* SZGPageController.m in Sources */,
+				A95146511B7994ED00B733ED /* FVCustomAlertView.m in Sources */,
+				A95146521B7994ED00B733ED /* SZGCityCell.m in Sources */,
+				A95146621B79953200B733ED /* SZGWeatherManager.m in Sources */,
+				A951465E1B79953200B733ED /* SZGWeather.m in Sources */,
 				A9E87B671AFB527E004A910D /* main.m in Sources */,
-				A9F9BDF01B2EC6F80036E0C5 /* CLLocationManager+Simulator.m in Sources */,
-				A909F1BF1AFC613900C518DA /* SZGWeatherManager.m in Sources */,
-				A9F361971B1459D9005F153F /* SZGWeatherCell.m in Sources */,
-				A9F9BDF31B2EC9000036E0C5 /* SZGLocation.m in Sources */,
-				A9F361941B1453EB005F153F /* SZGWeatherController.m in Sources */,
-				A909F1BC1AFC5D5000C518DA /* SZGCity.m in Sources */,
-				A9F345D21B1D92FA00D4307F /* SZGAddCityController.m in Sources */,
-				A9E5CCAB1B1BF9F500C03C69 /* SZGCityCell.m in Sources */,
-				A909F1B31AFC582D00C518DA /* SZGWeather.m in Sources */,
-				A91DA73F1B18401C00408310 /* SZGPageController.m in Sources */,
+				A951463D1B7994C400B733ED /* SZGSideController.m in Sources */,
+				A95146461B7994DD00B733ED /* CLLocationManager+Simulator.m in Sources */,
+				A951465F1B79953200B733ED /* SZGCity.m in Sources */,
+				A951463A1B7994C400B733ED /* SZGWeatherController.m in Sources */,
+				A95146471B7994DD00B733ED /* SZGLocation.m in Sources */,
+				A951463E1B7994C400B733ED /* SZGAddCityController.m in Sources */,
+				A951463C1B7994C400B733ED /* SZGCityController.m in Sources */,
+				A951464F1B7994ED00B733ED /* SZGWeatherCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
